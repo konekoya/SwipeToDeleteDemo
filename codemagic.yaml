@@ -1,8 +1,11 @@
 workflows:
-  hello-world:
-    name: Hello world workflow
+  SwipeToDeleteDemo-world:
+    name: Swipe to delete demo workflow
     scripts:
-      - echo "Hello World!"
+      - name: CI started
+        script: echo "Hello World!"
+      - name: Build project
+        script: xcodebuild build -project "SwipeToDeleteDemo.xcodeproj" -scheme "SwipeToDeleteDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     publishing:
       email:
         recipients:
