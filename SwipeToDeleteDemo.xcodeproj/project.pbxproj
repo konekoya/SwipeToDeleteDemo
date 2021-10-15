@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4229EE1F271902F600980DDF /* SwipeToDeleteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229EE1E271902F600980DDF /* SwipeToDeleteDemoTests.swift */; };
 		4249F8D3268C0BB8002D2F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249F8D2268C0BB8002D2F42 /* AppDelegate.swift */; };
 		4249F8D5268C0BB8002D2F42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249F8D4268C0BB8002D2F42 /* SceneDelegate.swift */; };
 		4249F8D7268C0BB8002D2F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249F8D6268C0BB8002D2F42 /* ViewController.swift */; };
 		4249F8DA268C0BB8002D2F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4249F8D8268C0BB8002D2F42 /* Main.storyboard */; };
 		4249F8DC268C0BBB002D2F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4249F8DB268C0BBB002D2F42 /* Assets.xcassets */; };
 		4249F8DF268C0BBB002D2F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4249F8DD268C0BBB002D2F42 /* LaunchScreen.storyboard */; };
+		EC0991744CE1400763AE903C /* Pods_SwipeToDeleteDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA70EDAB51DA10B4D4A03978 /* Pods_SwipeToDeleteDemoTests.framework */; };
+		F3A2C6E9C0870D0EC356CF60 /* Pods_SwipeToDeleteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345E15627F12ED08CF1CA733 /* Pods_SwipeToDeleteDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4229EE20271902F600980DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4249F8C7268C0BB8002D2F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4249F8CE268C0BB8002D2F42;
+			remoteInfo = SwipeToDeleteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		345E15627F12ED08CF1CA733 /* Pods_SwipeToDeleteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeToDeleteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C004C88DAAF40B2A7162FDE /* Pods-SwipeToDeleteDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeToDeleteDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeToDeleteDemoTests/Pods-SwipeToDeleteDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4229EE1C271902F500980DDF /* SwipeToDeleteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeToDeleteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4229EE1E271902F600980DDF /* SwipeToDeleteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDeleteDemoTests.swift; sourceTree = "<group>"; };
 		4249F8CF268C0BB8002D2F42 /* SwipeToDeleteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeToDeleteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4249F8D2268C0BB8002D2F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4249F8D4268C0BB8002D2F42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +41,57 @@
 		4249F8DB268C0BBB002D2F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4249F8DE268C0BBB002D2F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4249F8E0268C0BBB002D2F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EF0E3D43333C4F31710754 /* Pods-SwipeToDeleteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeToDeleteDemo.release.xcconfig"; path = "Target Support Files/Pods-SwipeToDeleteDemo/Pods-SwipeToDeleteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A0BCBAF6820F0FD6E77DDA31 /* Pods-SwipeToDeleteDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeToDeleteDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeToDeleteDemoTests/Pods-SwipeToDeleteDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A38DD95BC049A751DE7B3CE4 /* Pods-SwipeToDeleteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeToDeleteDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwipeToDeleteDemo/Pods-SwipeToDeleteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA70EDAB51DA10B4D4A03978 /* Pods_SwipeToDeleteDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeToDeleteDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4229EE19271902F500980DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0991744CE1400763AE903C /* Pods_SwipeToDeleteDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4249F8CC268C0BB8002D2F42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A2C6E9C0870D0EC356CF60 /* Pods_SwipeToDeleteDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169AA9D2FB152FD9BFCADC3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345E15627F12ED08CF1CA733 /* Pods_SwipeToDeleteDemo.framework */,
+				FA70EDAB51DA10B4D4A03978 /* Pods_SwipeToDeleteDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4229EE1D271902F600980DDF /* SwipeToDeleteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4229EE1E271902F600980DDF /* SwipeToDeleteDemoTests.swift */,
+			);
+			path = SwipeToDeleteDemoTests;
+			sourceTree = "<group>";
+		};
 		4249F8C6268C0BB8002D2F42 = {
 			isa = PBXGroup;
 			children = (
 				4249F8D1268C0BB8002D2F42 /* SwipeToDeleteDemo */,
+				4229EE1D271902F600980DDF /* SwipeToDeleteDemoTests */,
 				4249F8D0268C0BB8002D2F42 /* Products */,
+				9CB08D410505826F0CF2F3F0 /* Pods */,
+				169AA9D2FB152FD9BFCADC3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4249F8CF268C0BB8002D2F42 /* SwipeToDeleteDemo.app */,
+				4229EE1C271902F500980DDF /* SwipeToDeleteDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,13 +118,45 @@
 			path = SwipeToDeleteDemo;
 			sourceTree = "<group>";
 		};
+		9CB08D410505826F0CF2F3F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38DD95BC049A751DE7B3CE4 /* Pods-SwipeToDeleteDemo.debug.xcconfig */,
+				90EF0E3D43333C4F31710754 /* Pods-SwipeToDeleteDemo.release.xcconfig */,
+				3C004C88DAAF40B2A7162FDE /* Pods-SwipeToDeleteDemoTests.debug.xcconfig */,
+				A0BCBAF6820F0FD6E77DDA31 /* Pods-SwipeToDeleteDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4229EE1B271902F500980DDF /* SwipeToDeleteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4229EE24271902F600980DDF /* Build configuration list for PBXNativeTarget "SwipeToDeleteDemoTests" */;
+			buildPhases = (
+				BEF0EB367D6ACB29EEAE7234 /* [CP] Check Pods Manifest.lock */,
+				4229EE18271902F500980DDF /* Sources */,
+				4229EE19271902F500980DDF /* Frameworks */,
+				4229EE1A271902F500980DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4229EE21271902F600980DDF /* PBXTargetDependency */,
+			);
+			name = SwipeToDeleteDemoTests;
+			productName = SwipeToDeleteDemoTests;
+			productReference = 4229EE1C271902F500980DDF /* SwipeToDeleteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4249F8CE268C0BB8002D2F42 /* SwipeToDeleteDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4249F8E3268C0BBB002D2F42 /* Build configuration list for PBXNativeTarget "SwipeToDeleteDemo" */;
 			buildPhases = (
+				6F74551B2CE90B95C2AC40F9 /* [CP] Check Pods Manifest.lock */,
 				4249F8CB268C0BB8002D2F42 /* Sources */,
 				4249F8CC268C0BB8002D2F42 /* Frameworks */,
 				4249F8CD268C0BB8002D2F42 /* Resources */,
@@ -93,9 +176,13 @@
 		4249F8C7268C0BB8002D2F42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					4229EE1B271902F500980DDF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4249F8CE268C0BB8002D2F42;
+					};
 					4249F8CE268C0BB8002D2F42 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -115,11 +202,19 @@
 			projectRoot = "";
 			targets = (
 				4249F8CE268C0BB8002D2F42 /* SwipeToDeleteDemo */,
+				4229EE1B271902F500980DDF /* SwipeToDeleteDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4229EE1A271902F500980DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4249F8CD268C0BB8002D2F42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,7 +227,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F74551B2CE90B95C2AC40F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeToDeleteDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF0EB367D6ACB29EEAE7234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeToDeleteDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4229EE18271902F500980DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4229EE1F271902F600980DDF /* SwipeToDeleteDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4249F8CB268C0BB8002D2F42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +294,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4229EE21271902F600980DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4249F8CE268C0BB8002D2F42 /* SwipeToDeleteDemo */;
+			targetProxy = 4229EE20271902F600980DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4249F8D8268C0BB8002D2F42 /* Main.storyboard */ = {
@@ -165,6 +323,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4229EE22271902F600980DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C004C88DAAF40B2A7162FDE /* Pods-SwipeToDeleteDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWQFXNWHUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.is-land.joshua.SwipeToDeleteDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeToDeleteDemo.app/SwipeToDeleteDemo";
+			};
+			name = Debug;
+		};
+		4229EE23271902F600980DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BCBAF6820F0FD6E77DDA31 /* Pods-SwipeToDeleteDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWQFXNWHUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.is-land.joshua.SwipeToDeleteDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeToDeleteDemo.app/SwipeToDeleteDemo";
+			};
+			name = Release;
+		};
 		4249F8E1268C0BBB002D2F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,11 +493,12 @@
 		};
 		4249F8E4268C0BBB002D2F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38DD95BC049A751DE7B3CE4 /* Pods-SwipeToDeleteDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4RFZ8Z9D55;
+				DEVELOPMENT_TEAM = NWQFXNWHUL;
 				INFOPLIST_FILE = SwipeToDeleteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,11 +513,12 @@
 		};
 		4249F8E5268C0BBB002D2F42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EF0E3D43333C4F31710754 /* Pods-SwipeToDeleteDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4RFZ8Z9D55;
+				DEVELOPMENT_TEAM = NWQFXNWHUL;
 				INFOPLIST_FILE = SwipeToDeleteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -322,6 +534,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4229EE24271902F600980DDF /* Build configuration list for PBXNativeTarget "SwipeToDeleteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4229EE22271902F600980DDF /* Debug */,
+				4229EE23271902F600980DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4249F8CA268C0BB8002D2F42 /* Build configuration list for PBXProject "SwipeToDeleteDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

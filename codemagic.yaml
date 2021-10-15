@@ -2,10 +2,13 @@ workflows:
   SwipeToDeleteDemo-world:
     name: Swipe to delete demo workflow
     scripts:
-      - name: CI started
-        script: echo "Hello World!"
       - name: Build project
-        script: xcodebuild build -project "SwipeToDeleteDemo.xcodeproj" -scheme "SwipeToDeleteDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+        script: xcodebuild build -workspace "SwipeToDeleteDemo.xcworkspace" -scheme "SwipeToDeleteDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+      - name: iOS test
+        script: xcode-project run-tests \
+          --workspace SwipeToDeleteDemo.xcworkspace \
+          --scheme SwipeToDeleteDemo \
+          --device "iPhone 11"
     publishing:
       email:
         recipients:

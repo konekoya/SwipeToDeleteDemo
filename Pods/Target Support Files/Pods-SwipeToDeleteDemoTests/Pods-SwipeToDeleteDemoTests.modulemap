@@ -1,0 +1,6 @@
+framework module Pods_SwipeToDeleteDemoTests {
+  umbrella header "Pods-SwipeToDeleteDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

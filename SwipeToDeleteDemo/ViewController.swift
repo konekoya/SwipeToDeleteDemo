@@ -7,11 +7,19 @@
 
 import UIKit
 
+struct FeaturePlaylistCellViewModel {
+  let name: String
+  let artworkURL: String?
+  let creatorName: String
+}
+
 class ViewController: UITableViewController {
   var items = ["Buy milk", "Get kids up", "Fix dinner"]
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    title = "Swipe to delete"
   }
 
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,7 +36,11 @@ class ViewController: UITableViewController {
     return true
   }
 
-  override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+  override func tableView(
+    _ tableView: UITableView,
+    commit editingStyle: UITableViewCell.EditingStyle,
+    forRowAt indexPath: IndexPath
+  ) {
     if (editingStyle == .delete) {
       items.remove(at: indexPath.row)
       tableView.reloadData()
